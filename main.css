@@ -1,14 +1,13 @@
-h1{
-font-size: 80px;
-font-family: "aktiv-grotesk-std",sans-serif;
-text-align: center;
-}
-
-body {
+body{
     font-family: "aktiv-grotesk-std",sans-serif;
     font-style: normal;
     font-weight: 200;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased; 
     padding: 1em 10em;
+}
+
+h1{
+    font-size: 80px;
+    font-family: "aktiv-grotesk-std",sans-serif;
+    text-align: center;
 }
