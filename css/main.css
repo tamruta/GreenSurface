@@ -4,13 +4,16 @@ body{
     font-weight: 200;
     text-rendering: optimizeLegibility;
     padding: 2em 7em;
-    /*background-image: url('../img/background.jpg');*/
+    background-color: #9ce156;
+    /*background-image: url('../img/bg4.jpg');*/
 }
 
 /* heading for green surface*/
 h1{
-    font-size: 80px;
+    font-size: 85px;
     font-weight: bold;
+    color: #04AA6D;
+    /*background-color: #a8a8a8;*/
     font-family: "aktiv-grotesk-std",sans-serif;
     text-align: center;
     margin-top: 0em;
@@ -26,7 +29,7 @@ h1{
     background-color: #ffff;
     overflow: hidden;
     position: sticky;
-    top: 1em;
+    top: 0.5em;
   }
   
   /* Style the links inside the navigation bar */
@@ -36,6 +39,7 @@ h1{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
     font-size: 17px;
   }
   
@@ -54,10 +58,11 @@ h1{
   
   footer {
     height: 5em;
-    background: #eee;
+    background: rgb(255, 255, 255);
     text-align: center;
     bottom: 0%; 
   }
+  
   .foot{
     font-size: 18px;
   }
@@ -75,6 +80,8 @@ h1{
     font-size: 40px;
     margin-top: 0em;
     margin-bottom: 0em;
+    color: black;
+    font-weight: bolder;
   }
 
   .subsub{
@@ -84,7 +91,8 @@ h1{
   }
 
   .info{
-    background:rgb(234, 234, 234);
+    background:#fff194be;
+    border-radius: 5%;
     padding: 2em 2em;
     font-size: 20px;
   }
@@ -122,6 +130,7 @@ h1{
     margin: 0;
     padding: 0;
     border: 4px solid #ffffff;
+    border-radius: 50%;
     outline: 1px solid #d0d0d0;
     box-shadow: 0 2px 1px #DDD;
   }
@@ -153,6 +162,7 @@ h1{
     margin: 0;
     padding: 0;
     border: 4px solid #ffffff;
+    border-radius: 25%;
     outline: 1px solid #d0d0d0;
     box-shadow: 0 2px 1px #DDD;
   }
@@ -169,10 +179,16 @@ h1{
   
   .leftf{
     float: left;
+    border-radius: 50%;
+  }
+
+  img .leftf{
+    border-image: 5px solid;
   }
 
   .rightf{
     float: right;
+    border-radius: 50%;
   }
 
 
