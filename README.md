@@ -6,3 +6,5 @@ The website presents the projects worked on by Dr. Banmali Banerjee, while givin
 ## Project Information
 ### Redirection to the patent findings and paywall
 ## Contact Us
+
+Added some changes
