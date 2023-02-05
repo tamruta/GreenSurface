@@ -1,11 +1,13 @@
 body{
-    font-family: "aktiv-grotesk-std",sans-serif;
+/*     font-family: "aktiv-grotesk-std",sans-serif; */
     font-style: normal;
     font-weight: 200;
     text-rendering: optimizeLegibility;
     padding: 2em 7em;
     background-color: #9ce156;
     /*background-image: url('../img/bg4.jpg');*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 /* heading for green surface*/
