@@ -87,6 +87,7 @@ h1{
   }
 
   .subsub{
+    font-weight: bold;
     font-size: 14px;
     margin-top: 0.5em;
     margin-bottom: 0em;
