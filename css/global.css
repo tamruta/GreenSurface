@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/aktiv-grotesk-cd-trial');
+
+:root {
+    --title-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --default-font-family: 'Aktiv Grotesk Cd Trial', sans-serif;
+    --defatul-font-size: 0.5vw;
+    --heading-font-size: 6vw;
+    --subheading-font-size: 4vw;
+    --default-text-color: #000;
+    --neutral-color: #fff;
+
+    --primary-color: #6A9958;
+    --primary-color-dark: #346125;
+    --secondary-color: #2f8b4e;
+    --call-to-action: #5B3122;
+    --primary-background-color: #000;
+    /* --secondary-background-color: #000; */
+    --card-background-color: #141812d4;
+    /* --hero-image: url('../images/site/background.png'); */
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--default-font-family);
+    font-style: normal;
+    font-weight: 200;
+    font-size: var(--defatul-font-size);
+    text-rendering: optimizeLegibility;
+    padding: 1em 1em;
+    background-color: #9ce156;
+    min-height: 100vw;
+    /*background-image: url('../img/bg4.jpg');*/
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+}
+
+/* heading for green surface*/
+h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    color: #04AA6D;
+    /*background-color: #a8a8a8;*/
+    /* font-family: "aktiv-grotesk-std",sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Add a white background color to the top navigation */
+.topnav {
+    background-color: #ffff;
+    overflow: hidden;
+    position: sticky;
+    top: 0.5em;
+    width: 90vw;
+    align-self: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+footer {
+    /* height: 5em; */
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3vw;
+    bottom: 0%;
+    position: relative;
+}
+
+.foot {
+    font-size: clamp(1rem, 1.5vw, 3rem);
+}
+
+.foot a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.foot a:hover {
+    text-decoration: inherit;
+    color: #04AA6D;
+}
+
+.container {
+    padding: 1rem;
+  }
+  
